@@ -23,15 +23,4 @@ func (se *Serve) initializeRoutes() {
 	pb.RegisterUserServiceServer(grpcServer, UserHandler)
 	//=========================================================
 
-	//======================== ENDPOINT ========================
-	//Initialize endpoint route
-
-	//=== USER ===
-	// se.Router.HandleFunc("/user/create", h.RegisterNewUser).Methods("POST")
-	// se.Router.HandleFunc("/user/{id}/find", h.FindUserByUserID).Methods("GET")
-	// se.Router.HandleFunc("/user", h.GetUsers).Methods("GET")
-	// se.Router.HandleFunc("/user", h.UpdateDataUsers).Methods("PUT")
-	// se.Router.HandleFunc("/user/{id}", h.UserDelete).Methods("DELETE")
-	//==========================================================
-
 }
