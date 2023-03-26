@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
-	github.com/fajarcandraaa/implement-gRpc-microservice-protobank v0.0.0-20230326160830-8d5bd72a0a9b
+	github.com/fajarcandraaa/implement-gRpc-microservice-protobank v0.0.0-20230326181843-ffe7fc4ca33c
 	github.com/go-ozzo/ozzo-validation/v4 v4.3.0
 	github.com/go-sql-driver/mysql v1.7.0
 	github.com/google/uuid v1.3.0
